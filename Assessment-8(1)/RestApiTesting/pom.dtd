@@ -1,0 +1,6 @@
+<!ELEMENT dependencies (dependency+)>
+<!ELEMENT dependency (groupId,artifactId,version?,scope)>
+<!ELEMENT groupId (#PCDATA)>
+<!ELEMENT artifactId (#PCDATA)>
+<!ELEMENT version (#PCDATA)>
+<!ELEMENT scope (#PCDATA)>
